@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1 className='text-darkBlue text-5xl bg-background font-family-poppins'>
+        Hello World
+      </h1>
     </>
   );
 }

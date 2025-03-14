@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 @import 'tailwindcss';
+
+/* custom theme with colors and font family */
+@theme {
+  /* font family */
+  --font-family-poppins: 'Poppins', sans-serif;
+
+  /* colors */
+  --color-primary: #3368c0;
+  --color-secondary: #eef4ff;
+  --color-background: #f7faff;
+  --color-darkBlue: #1b4282;
+  --color-lightBlue: #bdd6ff;
+  --color-dimBlue: #f7faff;
+  --color-overlayBg: rgba(0, 0, 0, 0.3);
+}
